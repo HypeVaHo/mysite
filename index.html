@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Для Виктории ✨</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+     Floating hearts animation 
+    <div class="hearts-container" id="heartsContainer"></div>
+    
+     Navigation 
+    <nav class="nav">
+        <div class="nav-content">
+            <a href="#hero" class="nav-link">Начало</a>
+            <a href="#poem" class="nav-link">Стихи</a>
+            <a href="#moments" class="nav-link">Моменты</a>
+            <a href="#message" class="nav-link">Послание</a>
+        </div>
+    </nav>
+
+     Hero Section 
+    <section id="hero" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">
+                <span class="letter">В</span>
+                <span class="letter">и</span>
+                <span class="letter">к</span>
+                <span class="letter">т</span>
+                <span class="letter">о</span>
+                <span class="letter">р</span>
+                <span class="letter">и</span>
+                <span class="letter">я</span>
+            </h1>
+            <p class="hero-subtitle fade-in">Каждая буква твоего имени — это отдельная вселенная</p>
+            <div class="scroll-indicator">
+                <span>Листай вниз</span>
+                <div class="scroll-arrow"></div>
+            </div>
+        </div>
+        <div class="hero-background"></div>
+    </section>
+
+     Poem Section 
+    <section id="poem" class="poem-section">
+        <div class="container">
+            <h2 class="section-title reveal">Строки о тебе</h2>
+            
+            <div class="poem-card reveal">
+                <div class="poem-content">
+                    <p class="poem-line">В твоих глазах я вижу звёзды,</p>
+                    <p class="poem-line">Что освещают путь во тьме.</p>
+                    <p class="poem-line">Твоя улыбка — словно грёзы,</p>
+                    <p class="poem-line">Что снятся мне и наяву, и в сне.</p>
+                </div>
+            </div>
+
+            <div class="poem-card reveal">
+                <div class="poem-content">
+                    <p class="poem-line">Виктория — победа света,</p>
+                    <p class="poem-line">Над серостью обычных дней.</p>
+                    <p class="poem-line">Ты — как весенняя примета,</p>
+                    <p class="poem-line">Что делает мир теплей.</p>
+                </div>
+            </div>
+
+            <div class="poem-card reveal">
+                <div class="poem-content">
+                    <p class="poem-line">Твой смех — мелодия рассвета,</p>
+                    <p class="poem-line">Твой голос — музыка души.</p>
+                    <p class="poem-line">И нет прекраснее момента,</p>
+                    <p class="poem-line">Чем быть с тобою в тишине.</p>
+                </div>
+            </div>
+
+            <div class="poem-card reveal">
+                <div class="poem-content">
+                    <p class="poem-line">Ты — словно первый луч весенний,</p>
+                    <p class="poem-line">Что пробивается сквозь лёд.</p>
+                    <p class="poem-line">В твоём присутствии мгновенья</p>
+                    <p class="poem-line">Становятся как вечность — наоборот.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     Moments Section 
+    <section id="moments" class="moments-section">
+        <div class="container">
+            <h2 class="section-title reveal">Особенные моменты</h2>
+            
+            <div class="moments-grid">
+                <div class="moment-card reveal">
+                    <div class="moment-icon">🌸</div>
+                    <h3>Твоя улыбка</h3>
+                    <p>Когда ты улыбаешься, весь мир становится ярче. Это как первые лучи солнца после долгой ночи.</p>
+                </div>
+
+                <div class="moment-card reveal">
+                    <div class="moment-icon">✨</div>
+                    <h3>Твой взгляд</h3>
+                    <p>В твоих глазах целая вселенная. Можно смотреть бесконечно и каждый раз находить что-то новое.</p>
+                </div>
+
+                <div class="moment-card reveal">
+                    <div class="moment-icon">🎵</div>
+                    <h3>Твой голос</h3>
+                    <p>Твой голос — это самая прекрасная мелодия, которую я когда-либо слышал. Она успокаивает и вдохновляет.</p>
+                </div>
+
+                <div class="moment-card reveal">
+                    <div class="moment-icon">💫</div>
+                    <h3>Твоё присутствие</h3>
+                    <p>Когда ты рядом, всё обретает смысл. Даже обычные моменты становятся волшебными.</p>
+                </div>
+
+                <div class="moment-card reveal">
+                    <div class="moment-icon">🌙</div>
+                    <h3>Твоя доброта</h3>
+                    <p>Твоё сердце — это океан доброты. Ты делаешь мир лучше просто тем, что существуешь.</p>
+                </div>
+
+                <div class="moment-card reveal">
+                    <div class="moment-icon">🌺</div>
+                    <h3>Твоя красота</h3>
+                    <p>Красота не только внешняя, но и внутренняя. Ты прекрасна во всех смыслах этого слова.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     Interactive Section 
+    <section class="interactive-section">
+        <div class="container">
+            <h2 class="section-title reveal">Нажми на сердце</h2>
+            <div class="heart-button-container">
+                <button class="heart-button" id="heartButton">
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+                    </svg>
+                </button>
+                <p class="heart-message" id="heartMessage"></p>
+            </div>
+        </div>
+    </section>
+
+     Message Section 
+    <section id="message" class="message-section">
+        <div class="container">
+            <div class="message-card reveal">
+                <h2 class="message-title">Виктория</h2>
+                <div class="message-content">
+                    <p>Есть люди, которые меняют всё вокруг себя просто своим присутствием. Ты — один из таких людей.</p>
+                    
+                    <p>Каждый день, когда я думаю о тебе, я понимаю, как много значит один человек. Как одна улыбка может изменить настроение, как один взгляд может сказать больше тысячи слов.</p>
+                    
+                    <p>Ты — как первый снег, который покрывает землю и делает всё вокруг чистым и новым. Ты — как весенний дождь, который пробуждает жизнь. Ты — как летнее солнце, которое согревает душу.</p>
+                    
+                    <p>Я не знаю, что такое совершенство, но когда я смотрю на тебя, я понимаю, что оно существует.</p>
+                    
+                    <p class="message-signature">С глубоким восхищением и нежностью... 💕</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     Footer 
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-text">Создано с любовью для самой особенной Виктории ✨</p>
+            <div class="footer-hearts">
+                <span class="footer-heart">💕</span>
+                <span class="footer-heart">💖</span>
+                <span class="footer-heart">💕</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
